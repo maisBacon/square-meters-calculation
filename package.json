@@ -2,9 +2,10 @@
   "name": "square-meter-calculation",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app/server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
+    "start": "node src/app/server.js",
+    "dev": "nodemon src/app/server.js",
     "test": "NODE_ENV=test"
   },
   "keywords": [],
