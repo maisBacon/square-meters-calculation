@@ -1,0 +1,31 @@
+{
+  "name": "square-meter-calculation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "NODE_ENV=test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "intl": "^1.2.5",
+    "mongoose": "^5.11.19",
+    "winston": "^3.3.3",
+    "yup": "^0.32.9"
+  }
+}

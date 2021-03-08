@@ -1,0 +1,49 @@
+2021-03-07T03:56:28.173Z [app] info: ValidationEntriesMiddleware
+2021-03-07T03:56:28.182Z [app] info: SquareMetersController
+2021-03-07T03:56:28.182Z [app] info: SquareMetersService
+2021-03-07T03:57:34.330Z [app] info: ValidationEntriesMiddleware
+2021-03-07T03:57:34.339Z [app] info: SquareMetersController
+2021-03-07T03:57:34.339Z [app] info: SquareMetersService
+2021-03-07T03:57:34.342Z [app] info: response
+2021-03-07T03:57:51.466Z [app] info: ValidationEntriesMiddleware
+2021-03-07T03:57:51.476Z [app] info: SquareMetersController
+2021-03-07T03:57:51.477Z [app] info: SquareMetersService
+2021-03-07T03:57:51.480Z [app] info: R$100,00
+2021-03-07T03:58:10.977Z [app] info: ValidationEntriesMiddleware
+2021-03-07T03:58:10.985Z [app] info: SquareMetersController
+2021-03-07T03:58:10.985Z [app] info: SquareMetersService
+2021-03-07T03:58:10.988Z [app] info: success R$100,00
+2021-03-07T03:58:20.202Z [app] info: ValidationEntriesMiddleware
+2021-03-07T03:58:20.218Z [app] info: SquareMetersController
+2021-03-07T03:58:20.219Z [app] info: SquareMetersService
+2021-03-07T03:58:20.224Z [app] info: response R$100,00
+2021-03-07T03:58:46.577Z [app] info: ValidationEntriesMiddleware
+2021-03-07T03:58:46.585Z [app] info: SquareMetersController
+2021-03-07T03:58:46.586Z [app] info: SquareMetersService
+2021-03-07T03:58:46.589Z [app] info: response R$100,00
+2021-03-07T03:58:51.403Z [app] info: ValidationMiddleware
+2021-03-07T03:58:51.412Z [app] info: SquareMetersController
+2021-03-07T03:58:51.412Z [app] info: SquareMetersService
+2021-03-07T03:58:51.416Z [app] info: response R$100,00
+2021-03-07T03:59:16.605Z [app] info: ValidationMiddleware
+2021-03-07T03:59:16.613Z [app] info: SquareMetersController
+2021-03-07T03:59:16.613Z [app] info: SquareMetersService
+2021-03-07T03:59:16.616Z [app] info: Response R$100,00
+2021-03-07T03:59:30.673Z [app] info: ValidationMiddleware
+2021-03-07T03:59:30.683Z [app] info: SquareMetersController
+2021-03-07T03:59:30.683Z [app] info: SquareMetersService
+2021-03-07T03:59:30.687Z [app] info: Response success R$100,00
+2021-03-07T03:59:43.256Z [app] info: ValidationMiddleware
+2021-03-07T03:59:43.260Z [app] error: error =>
+2021-03-07T04:00:39.828Z [app] info: ValidationMiddleware
+2021-03-07T04:00:39.837Z [app] error: error => meter has to be a less than 10
+2021-03-07T04:00:47.347Z [app] info: ValidationMiddleware
+2021-03-07T04:00:47.358Z [app] error: error: meter has to be a less than 10
+2021-03-07T04:01:02.246Z [app] info: ValidationMiddleware
+2021-03-07T04:01:02.262Z [app] error: meter has to be a less than 10
+2021-03-07T04:04:56.814Z [app] info: ValidationMiddleware
+2021-03-07T04:04:56.826Z [app] error: meter has to be a less than 10
+2021-03-07T04:05:03.013Z [app] info: ValidationMiddleware
+2021-03-07T04:05:03.015Z [app] info: SquareMetersController
+2021-03-07T04:05:03.016Z [app] info: SquareMetersService
+2021-03-07T04:05:03.019Z [app] info: Response success R$100,00
