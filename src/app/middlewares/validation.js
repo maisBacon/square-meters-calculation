@@ -1,5 +1,7 @@
 const yup = require('yup');
 const constants = require('../constants');
+const { event } = require('../utils/event');
+
 const logger = require('../utils/logger');
 
 class ValidationMiddleware {
@@ -15,9 +17,10 @@ class ValidationMiddleware {
     yup
       .object()
       .shape({
-        value: yup.number().required(),
+        value: yup.number().positive().required(),
         meter: yup
           .number()
+          .positive()
           .min(constants.meter.min.value)
           .max(constants.meter.max.value)
           .required(),
@@ -25,7 +28,7 @@ class ValidationMiddleware {
       .validate(req.query)
       .then(() => next())
       .catch(err => {
-        logger.error(err.errors);
+        logger.error(err);
         res.status(400).send({ [err.name]: `${err.errors}` });
       });
   }
