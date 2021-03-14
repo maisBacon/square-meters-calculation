@@ -1,7 +1,5 @@
 const yup = require('yup');
 const constants = require('../constants');
-const { event } = require('../utils/event');
-
 const logger = require('../utils/logger');
 
 class ValidationMiddleware {
@@ -17,7 +15,7 @@ class ValidationMiddleware {
     yup
       .object()
       .shape({
-        value: yup.number().positive().required(),
+        value: yup.number().positive(),
         meter: yup
           .number()
           .positive()

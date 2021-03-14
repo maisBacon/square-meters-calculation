@@ -1,8 +1,3 @@
-const badRequest = error => ({
-  statusCode: 400,
-  body: { errorrrr: `${error}` },
-});
-
 const serverError = () => ({
   statusCode: 500,
   body: { error: 'generic error' },
@@ -13,4 +8,4 @@ const ok = data => ({
   body: { success: data },
 });
 
-module.exports = { ok, serverError, badRequest };
+module.exports = { ok, serverError };

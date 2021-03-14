@@ -1,11 +1,13 @@
 const { currency } = require('../utils/intl');
 const logger = require('../utils/logger');
+const GetValue = require('./getValue');
 
 class SquareMetersService {
   async calculation(meter, value) {
-    // throw new Error('fudeo');
     logger.info('SquareMetersService');
-    const result = meter * value;
+    const getValue = !value && (await GetValue.value());
+    const price = value || getValue.data.value;
+    const result = meter * price;
     logger.info('Call currency method');
     return currency(result);
   }
