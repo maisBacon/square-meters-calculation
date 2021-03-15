@@ -64,4 +64,4 @@ ex: url/square-meters/calculation?meter=10&value=10
 
 ## heroku
 
-https://square-meter-value.herokuapp.com/
+https://square-meters-calculation.herokuapp.com/square-meters/calculation?value=100&meter=10
