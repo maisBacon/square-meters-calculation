@@ -61,3 +61,6 @@ basta importar essa url em import > link > colar endereço
 caso não passe o parâmetro value, a api-2 vai consultar o valor padrão da na api-1 { value:10 }
 se quiser chamar a api com value, é só passar value como parâmetro
 ex: url/square-meters/calculation?meter=10&value=10
+
+## heroku
+https://square-meter-value.herokuapp.com/
