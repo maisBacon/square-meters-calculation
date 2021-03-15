@@ -10,3 +10,167 @@
 2021-03-15T03:12:39.478Z [app] info: SquareMetersService
 2021-03-15T03:12:39.478Z [app] info: Call currency method
 2021-03-15T03:12:39.479Z [app] info: response success R$100,00
+2021-03-15T03:18:10.532Z [app] info: ValidationMiddleware
+2021-03-15T03:18:10.540Z [app] info: SquareMetersController
+2021-03-15T03:18:10.540Z [app] info: SquareMetersService
+2021-03-15T03:18:10.540Z [app] info: Call currency method
+2021-03-15T03:18:10.544Z [app] info: response success R$100,00
+2021-03-15T03:18:13.949Z [app] info: ValidationMiddleware
+2021-03-15T03:18:13.952Z [app] info: SquareMetersController
+2021-03-15T03:18:13.952Z [app] info: SquareMetersService
+2021-03-15T03:18:13.952Z [app] info: GetValue
+2021-03-15T03:18:13.976Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:18:15.233Z [app] info: ValidationMiddleware
+2021-03-15T03:18:15.234Z [app] info: SquareMetersController
+2021-03-15T03:18:15.234Z [app] info: SquareMetersService
+2021-03-15T03:18:15.234Z [app] info: GetValue
+2021-03-15T03:18:15.236Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:19:06.420Z [app] info: ValidationMiddleware
+2021-03-15T03:19:06.425Z [app] info: SquareMetersController
+2021-03-15T03:19:06.425Z [app] info: SquareMetersService
+2021-03-15T03:19:06.425Z [app] info: GetValue
+2021-03-15T03:19:06.438Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:19:08.038Z [app] info: ValidationMiddleware
+2021-03-15T03:19:08.040Z [app] info: SquareMetersController
+2021-03-15T03:19:08.040Z [app] info: SquareMetersService
+2021-03-15T03:19:08.040Z [app] info: GetValue
+2021-03-15T03:19:08.042Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:19:11.533Z [app] info: ValidationMiddleware
+2021-03-15T03:19:11.535Z [app] info: SquareMetersController
+2021-03-15T03:19:11.535Z [app] info: SquareMetersService
+2021-03-15T03:19:11.535Z [app] info: GetValue
+2021-03-15T03:19:11.537Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:25:32.035Z [app] info: ValidationMiddleware
+2021-03-15T03:25:32.040Z [app] info: SquareMetersController
+2021-03-15T03:25:32.041Z [app] info: SquareMetersService
+2021-03-15T03:25:32.041Z [app] info: GetValue
+2021-03-15T03:25:32.055Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:25:34.857Z [app] info: ValidationMiddleware
+2021-03-15T03:25:34.859Z [app] info: SquareMetersController
+2021-03-15T03:25:34.859Z [app] info: SquareMetersService
+2021-03-15T03:25:34.859Z [app] info: GetValue
+2021-03-15T03:25:34.862Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:26:14.968Z [app] info: ValidationMiddleware
+2021-03-15T03:26:14.973Z [app] info: SquareMetersController
+2021-03-15T03:26:14.974Z [app] info: SquareMetersService
+2021-03-15T03:26:14.974Z [app] info: GetValue
+2021-03-15T03:26:14.987Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:26:38.543Z [app] info: ValidationMiddleware
+2021-03-15T03:26:38.545Z [app] error: meter is a required field
+2021-03-15T03:30:17.571Z [app] info: ValidationMiddleware
+2021-03-15T03:30:17.572Z [app] info: SquareMetersController
+2021-03-15T03:30:17.572Z [app] info: SquareMetersService
+2021-03-15T03:30:17.572Z [app] info: GetValue
+2021-03-15T03:30:17.574Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:30:46.794Z [app] info: ValidationMiddleware
+2021-03-15T03:30:46.802Z [app] info: SquareMetersController
+2021-03-15T03:30:46.803Z [app] info: SquareMetersService
+2021-03-15T03:30:46.803Z [app] info: GetValue
+2021-03-15T03:30:46.818Z [app] error: TypeError: Cannot read property 'value' of undefined
+    at SquareMetersService.calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/service/SquareMeters.js:9:42)
+    at calculation (/home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/controllers/SquareMeters.js:10:50)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/src/app/adapter/handle.js:2:30
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/layer.js:95:5)
+    at /home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/renan/dev/desafios/inGaia/square-meters-calculation/node_modules/express/lib/router/index.js:275:10)
+2021-03-15T03:31:25.736Z [app] info: ValidationMiddleware
+2021-03-15T03:31:41.975Z [app] info: ValidationMiddleware
+2021-03-15T03:31:41.992Z [app] info: SquareMetersController
+2021-03-15T03:31:41.994Z [app] info: SquareMetersService
+2021-03-15T03:31:41.996Z [app] info: GetValue
+2021-03-15T03:31:49.665Z [app] info: Call currency method
+2021-03-15T03:31:49.669Z [app] info: response success R$100,00
