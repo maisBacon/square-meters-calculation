@@ -51,7 +51,9 @@ yarn sequelize db:migrate:undo
 
 ## Postman
 
-- https://www.getpostman.com/collections/f47ab57c1a9bbaff703c
+- https://www.getpostman.com/collections/953ba634109586d783be
+
+basta importar essa url em import > link > colar endereço
 
 
 ## IMPORTANTE
